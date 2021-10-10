@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Links
 
-- [Live Site URL](https://msscaroso.github.io/playground-styled-order-summary/)
+- [Live Site URL](https://jovial-shockley-4e96f6.netlify.app/)
 
 
 ## Author
