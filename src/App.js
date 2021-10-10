@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import {createGlobalStyle} from "styled-components";
+import OrderSummary from "./pages/OrderSummary";
+
+const GlobalStyles = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@600&display=swap');
+  
+  html {
+    background-color: #e1e9fc;
+  }
+`
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <GlobalStyles/>
+            <OrderSummary/>
+        </>
+    );
 }
 
 export default App;
